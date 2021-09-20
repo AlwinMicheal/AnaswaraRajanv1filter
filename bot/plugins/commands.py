@@ -28,7 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = f"{file_name} \n ♻️ 𝙅𝙊𝙄𝙉 :- @movies_hut_chat",
+                caption = f"{file_name} \n ♻️ 𝙅𝙊𝙄𝙉 :- \n @movies_hut_chat",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
